@@ -13,38 +13,22 @@
     <header>
             <h1 class="text-center">Quinn Ryan</h1>
             <h2 class="text-center">let q = in</h2>
-        <!-- update with professional looking picture -->
         <img alt="" src="" width="" height="">
         <!-- page navigation links -->
         <nav class="container">
             <ul class="row"> 
-                <li class="col-md">
-                    <a href="#about_me" class="rounded p-3 mb-2 bg-secondary text-white">About Me</a>
+                <li class="col-sm">
+                    <a href="#about_me" class="d-flex justify-content-center rounded p-3 mb-2 bg-secondary text-white">About Me</a>
                 </li>
-                <li class="col-md">
-                    <a href="#contact_info" class="rounded p-3 mb-2 bg-secondary text-white">Contact Information</a>
+                <li class="col-sm">
+                    <a href="#projects" class="d-flex justify-content-center rounded p-3 mb-2 bg-secondary text-white">Projects</a>
                 </li>
-                <li class="col-md">
-                    <a href="#projects" class="rounded p-3 mb-2 bg-secondary text-white">Projects</a>
+                <li class="col-sm">
+                    <a href="#contact_info" class="d-flex justify-content-center rounded p-3 mb-2 bg-secondary text-white">Contact Information</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <!-- about me -->
-    <div class="container" id="#about_me">
-        <h2 class="about_me_header">About Me</h2>
-        <div class="row">
-            <p>
-                My name is Quinn Ryan and I am training for a job in web development. In middle school, I discovered the developer tools native to Chrome. Modifying news headlines in the DOM was incredibly entertaining to me.
-            </p>
-            <p>
-                After high school, I went into mechanics immediately with Mercedes Benz. I was a mechanic for three and a half years fixing anything that came in (with frequent help from senior techs of course). I have decided that I value a more remote work experience. The skills I have gained from being a mechanic have taught me to look at a problem from every angle. The way I have been taught to work is centered around solving problems, coding is where I need to be.
-            </p>
-            <p>
-                Outside of coding I am more of an outdoor person. I particularly enjoy camping and hiking the most. I also enjoy sailing a sunfish sailboat, but have sailed a couple of larger ships.
-            </p>
-        </div>
-    </div>
     <main class="container">
         <!-- work completed -->
         <h2 id="projects">My Work</h2>
@@ -71,25 +55,61 @@
                 <img alt="Fifth Website Screenshot" src="pictures\picsum4.jpg"></a>
             </li>
         </ul>
+        <!-- about me -->
+        <div class="container" id="#about_me">
+            <h2 class="about_me_header">About Me</h2>
+            <div class="row">
+                <p class="text center">
+                    My name is Quinn Ryan and I am training for a job in web development. In middle school, I discovered the developer tools native to Chrome. Modifying news headlines in the DOM was incredibly entertaining to me.
+                </p>
+                <p class="text-center">
+                    After high school, I went into mechanics immediately with Mercedes Benz. I was a mechanic for three and a half years fixing anything that came in (with frequent help from senior techs of course). I have decided that I value a more remote work experience. The skills I have gained from being a mechanic have taught me to look at a problem from every angle. The way I have been taught to work is centered around solving problems, coding is where I need to be.
+                </p>
+                <p class="text-center">
+                    Outside of coding I am more of an outdoor person. I particularly enjoy camping and hiking the most. I also enjoy sailing a sunfish sailboat, but have sailed a couple of larger ships.
+                </p>
+            </div>
+        </div>
         <h2>How to Contact Me</h2>
     <section>
-        <ul id="contact_info">
-            <li
-                id="github">Follow me on <a href="https://github.com/letqin" target="_blank">GitHub</a>
-            </li>
-            <li
-                id="stack">Check out my <a href="https://stackoverflow.com/users/16415483/quinn-ryan-letqin" target="_blank">Stack Overflow</a>
-            </li>
-            <li
-                id="discord">Add me on <a href="https://discord.com/" target="_blank">Discord:</a> letqin#8347
-            </li>
-            <li
-                id="slack">Message me on <a href="https://slack.com/" target="_blank`">Slack</a> user ID: U027Z9PU5TN
-            </li>
-            <!-- <li
-                class="email">Send me an E-mail at: <a href="mailto:letqin@gmail.com">letqin@gmail.com</a>
-            </li> -->
+        <ul class="container" id="contact_info">
+            <div class="row">
+                <div class="col bg-secondary">
+                    <button type="button" class="btn btn-primary">Follow me on
+                    </button>
+                </div>
+                <div class="col bg-secondary">
+                    <button type="button" class="btn btn-primary"></button>
+                </div>
+                <div class="col bg-secondary">
+                    <button type="button" class="btn btn-primary"></button>
+                </div>
+                <div class="col bg-secondary">
+                    <button type="button" class="btn btn-primary"></button>
+                </div>
+            </div>
         </ul>
+
+
+
+<!-- 
+        <li
+        id="github" class="d-flex justify-content-center rounded p-3 mb-2 bg-secondary text-white col-sm">Follow me on <a href="https://github.com/letqin" target="_blank">GitHub</a>
+        </li>
+        <li
+        id="stack" class="d-flex justify-content-center rounded p-3 mb-2 bg-secondary text-white col-sm">Check out my <a href="https://stackoverflow.com/users/16415483/quinn-ryan-letqin" target="_blank">Stack Overflow</a>
+        </li>
+        <li
+        id="discord" class="d-flex justify-content-center rounded p-3 mb-2 bg-secondary text-white col-sm">Add me on <a href="https://discord.com/" target="_blank">Discord:</a> letqin#8347
+        </li>
+        <li
+        id="slack" class="d-flex justify-content-center rounded p-3 mb-2 bg-secondary text-white col-sm">Message me on <a href="https://slack.com/" target="_blank`">Slack</a> user ID: U027Z9PU5TN
+        </li> -->
+
+
+
+
+
     </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
